@@ -15,64 +15,37 @@ The goal is to demonstrate both **theoretical understanding** and **practical ap
 ---
 
 ## Repository Structure
+```text
 applied-data-science/
 │
 ├── courses/
-│ ├── sql-data-engineering/
-│ │ ├── module-01-basics/
-│ │ ├── module-02-joins/
-│ │ ├── module-03-window-functions/
-│ │ └── final-project/
-│ │
-│ ├── python-for-data/
-│ │ ├── module-01-basics/
-│ │ ├── module-02-pandas/
-│ │ ├── module-03-data-cleaning/
-│ │ └── final-project/
-│ │
-│ ├── machine-learning/
-│ ├── module-01-supervised/
-│ ├── module-02-unsupervised/
-│ └── final-project/
+│   ├── sql-data-engineering/
+│   │   ├── module-01-basics/
+│   │   ├── module-02-joins/
+│   │   ├── module-03-window-functions/
+│   │   └── final-project/
+│   │
+│   ├── python-for-data/
+│   │   ├── module-01-basics/
+│   │   ├── module-02-pandas/
+│   │   ├── module-03-data-cleaning/
+│   │   └── final-project/
+│   │
+│   └── machine-learning/
+│       ├── module-01-supervised/
+│       ├── module-02-unsupervised/
+│       └── final-project/
 │
-├── mini-projects/ # Independent projects applying multiple courses
-├── datasets/ # Sample datasets used in exercises/projects
-└── README.md # This file
+├── mini-projects/   # Independent projects applying multiple courses
+├── datasets/        # Sample datasets used in exercises/projects
+└── README.md        # This file
+` ` `  ← remove spaces, this is just to avoid closing the outer code block
 
 ---
+...rest of file unchanged
+```
 
-## How to Use This Repository
-1. Navigate to the **course** folder you want to explore.  
-2. Inside each **module**, you’ll find:
-   - `notes.md` → explanations of concepts  
-   - `examples` → code snippets of methods/functions  
-   - `exercises` → practice problems I implemented  
-   - `mini-task` → small applied exercises  
-3. Check **final-project** folders to see full implementations applying the course concepts.
+**What was fixed:**
 
----
-
-## Courses Covered
-- SQL for Data Engineering  
-- Python for Data Analysis  
-- Pandas & Data Manipulation  
-- Data Cleaning & Preprocessing  
-- Machine Learning (Supervised & Unsupervised)  
-- Mini-projects applying multiple courses  
-
----
-
-## Purpose
-This repo serves as my **learning portfolio** to demonstrate progression from learning concepts → implementing exercises → building projects. Intended for:
-
-- Personal reference  
-- Showcasing practical skills to potential employers  
-- Continuous improvement and experimentation  
-
----
-
-## Highlights
-- Structured by course → module → project  
-- Includes practical implementations of lessons learned  
-- Mini-projects demonstrate application across multiple courses  
-- Ready for recruiters or collaborators to explore
+1. **Missing code fence around the directory tree** — without ` ```text ``` `, the `│`, `├──`, and `└──` characters don't render properly as a tree; they just appear as jumbled text.
+2. **Indentation inside `machine-learning/`** — its sub-modules were at the wrong nesting level (aligned with the course folders instead of being indented as children). Fixed so they're properly nested under `machine-learning/` with consistent spacing to match the other courses.
