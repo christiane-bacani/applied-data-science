@@ -4,77 +4,48 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 
 ## Overview
-This repository contains hands-on implementations, exercises, and mini-projects completed while learning **Data Science and Data Engineering**. It follows a structured learning approach:
+This repository tracks my hands-on learning progress in data science through course exercises and Kaggle mini-projects.
 
-- Each **course** has multiple **modules**
-- Each **module** contains code, examples, exercises, and small tasks
-- Each **final-project** applies the concepts learned in the course
-
-The goal is to demonstrate both **theoretical understanding** and **practical application** of the concepts.
-
----
+Current focus areas:
+- Kaggle learning notebooks (course exercises)
+- Competition practice (Titanic)
 
 ## Repository Structure
 ```text
 applied-data-science/
-│
-├── courses/
-│   ├── sql-data-engineering/
-│   │   ├── module-01-basics/
-│   │   ├── module-02-joins/
-│   │   ├── module-03-window-functions/
-│   │   └── final-project/
-│   │
-│   ├── python-for-data/
-│   │   ├── module-01-basics/
-│   │   ├── module-02-pandas/
-│   │   ├── module-03-data-cleaning/
-│   │   └── final-project/
-│   │
-│   └── machine-learning/
-│       ├── module-01-supervised/
-│       ├── module-02-unsupervised/
-│       └── final-project/
-│
-├── mini-projects/   # Independent projects applying multiple courses
-├── datasets/        # Sample datasets used in exercises/projects
-└── README.md        # This file
+|-- courses/
+|   |-- datacamp-courses/
+|   `-- kaggle-courses/
+|       |-- Intro-to-Programming/
+|       |   |-- exercise/
+|       |   |   `-- arithmetic_and_variables.ipynb
+|       |   |-- lesson/
+|       |   |   `-- arithmetic_and_variables.ipynb
+|       |   `-- mini-project/
+|       |       `-- arithmetic_and_variables.ipynb
+|       `-- Python/
+|-- mini-projects/
+|   `-- kaggle-competitions/
+|       `-- titanic-competition/
+|           |-- datasets/
+|           |   |-- gender_submission.csv
+|           |   |-- test.csv
+|           |   `-- train.csv
+|           |-- notebooks/
+|           |   |-- Getting Started with Titanic.ipynb
+|           |   `-- random_forest_model.png
+|           `-- outputs/
+|               `-- submission.csv
+`-- README.md
 ```
 
----
-
 ## How to Use This Repository
-1. Navigate to the **course** folder you want to explore.  
-2. Inside each **module**, you'll find:
-   - `notes.md` → explanations of concepts  
-   - `examples` → code snippets of methods/functions  
-   - `exercises` → practice problems I implemented  
-   - `mini-task` → small applied exercises  
-3. Check **final-project** folders to see full implementations applying the course concepts.
+1. Open a course notebook under `courses/kaggle-courses/` to review lessons, exercises, and mini-project work.
+2. Go to `mini-projects/kaggle-competitions/titanic-competition/notebooks/` for end-to-end competition workflow examples.
+3. Use:
+   - `datasets/` for raw competition inputs
+   - `outputs/` for generated submissions
 
----
-
-## Courses Covered
-- SQL for Data Engineering  
-- Python for Data Analysis  
-- Pandas & Data Manipulation  
-- Data Cleaning & Preprocessing  
-- Machine Learning (Supervised & Unsupervised)  
-- Mini-projects applying multiple courses  
-
----
-
-## Purpose
-This repo serves as my **learning portfolio** to demonstrate progression from learning concepts → implementing exercises → building projects. Intended for:
-
-- Personal reference  
-- Showcasing practical skills to potential employers  
-- Continuous improvement and experimentation  
-
----
-
-## Highlights
-- Structured by course → module → project  
-- Includes practical implementations of lessons learned  
-- Mini-projects demonstrate application across multiple courses  
-- Ready for recruiters or collaborators to explore
+## Notes
+- `courses/datacamp-courses/` and `courses/kaggle-courses/Python/` currently exist as placeholders for upcoming content.
+- This README reflects the local repository structure as of March 29, 2026.
