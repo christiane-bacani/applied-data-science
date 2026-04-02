@@ -8,3 +8,8 @@
         - **Computer Vision**: *Stable Diffusion* can create different images from simple text prompt.
         - **Audio and Speech Synthesis**: AI models can now generate human-like voices for virtual assistants, audiobooks, and even podcasts.
         - **Computer code generation**: Generative AI can assist developers by auto-completing *code snippets* or even generate entire programs based on prompt descriptions.
+
+#### 2. What is Articial Intelligence?
+    - Artificial Intelligence is a broad concept that encompasses the development of intelligent systems that is capable of performing a task that needs human intelligence.
+
+![Artificial Intelligence](courses\AWS-AI-Practitioner-Challenge\Lesson-1\artificial_intelligence.png)
