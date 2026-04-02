@@ -21,7 +21,3 @@ Practical applications include:
 **Audio and Speech Synthesis**: AI models can now generate human-like voices for virtual assistants, audiobooks, and even podcasts.
 
 **Computer code generation**: Generative AI can assist developers by auto-completing *code snippets* or even generate entire programs based on prompt descriptions.
-
-Below is the image of the artificial intelligence, and you can see the relationships between all the fields which is the Machine Learning, Deep Learning, and Generative AI they are all inside the scope of Artificial Intelligence.
-
-![Artificial Intelligence](artificial_intelligence.png)
