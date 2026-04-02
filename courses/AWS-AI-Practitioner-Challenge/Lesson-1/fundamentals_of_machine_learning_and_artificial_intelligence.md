@@ -22,4 +22,4 @@ Practical applications include:
 
 **Computer code generation**: Generative AI can assist developers by auto-completing *code snippets* or even generate entire programs based on prompt descriptions.
 
-![Artificial Intelligence](courses\AWS-AI-Practitioner-Challenge\Lesson-1\artificial_intelligence.png)
+![Artificial Intelligence](artificial_intelligence.png)
