@@ -1,5 +1,8 @@
-### **Data Lifecycle**
+# Data Lifecycle
 
+## Data Processing Hierarchy
+
+```
 DATA PROCESSING (the entire umbrella)
 │
 │   The whole journey of data from collection to final use
@@ -91,20 +94,22 @@ DATA PROCESSING (the entire umbrella)
                         ├── Build brand new cleaning/transforming/wrangling logic
                         ├── Train → Test → Evaluate from scratch
                         └── ✅ Deploy → resume inference preprocessing
+```
 
-Triggers That Activate Retraining:
+## Triggers That Activate Retraining
 
-INFERENCE PREPROCESSING monitors for:
+```
 │
 ├── Data Drift        → incoming data looks different from training data
 ├── Concept Drift     → real world relationships between variables changed
 ├── Accuracy Drop     → model predictions getting worse over time
 ├── New Data          → better/more data is now available
 └── Business Changes  → new requirements old rules didn't account for
+```
 
-Who Owns What
+## Who Owns What
 
-DATA PROCESSING
+```
 │
 ├── Data Collection          → Data Engineer
 ├── Data Preparation         → Data Analyst
@@ -115,3 +120,4 @@ DATA PROCESSING
         ├── Partial Retraining        → Data Scientist + ML Engineer
         ├── Full Model Retraining     → Data Scientist
         └── Inference Preprocessing   → ML Engineer
+```
