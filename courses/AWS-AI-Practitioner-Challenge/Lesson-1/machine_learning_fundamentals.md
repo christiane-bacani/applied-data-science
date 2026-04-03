@@ -56,6 +56,6 @@ The compiled training data is fed into the Machine Learning Model. The process o
 After the model has been trained, the model performs predictions or decisions in *new or unforeseen data* and that is called *inference*. Below is the two types of inference use in machine learning.
 
 1. **Batch Inference**: When the computer analyzes the dataset all at once or per batch in order to perform decisions or predictions. This type of inference is useful in task like data analysis where the speed of decision does not affect the performance of the model.
-2. **Real-time Inference**: When the computer analyzes the dataset in real-time or as much as possible in order to make predictions, decisions, or actions. This type of inference is useful in certain scenarios or models such as self-driving cars that real-time data is crucial to perform any action and delayed latency will cause the car to crash.
+2. **Real-time Inference**: When the computer analyzes the dataset in real-time or as much as possible in order to make predictions, decisions, or actions. This type of inference is useful in certain scenarios such as self-driving cars that real-time data is crucial to perform any action and delayed latency will cause thecar to crash.
 
 Both type of inference have unique advantages and use cases. Your use case will determine which type of inference to use.
