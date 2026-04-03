@@ -4,20 +4,28 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 
 ## Overview
-This repository tracks my hands-on learning progress in data science through course exercises and Kaggle mini-projects.
+This repository tracks my hands-on learning progress in data science through course exercises, conceptual learning, and Kaggle mini-projects.
 
 Current focus areas:
+- Data science concepts and fundamentals
 - Kaggle learning notebooks (course exercises)
-- Competition practice (Titanic)
 - AWS AI Practitioner Challenge
+- Competition practice (Titanic)
 
 ## Repository Structure
 ```
 applied-data-science/
+├── concepts/
+│   ├── data-lifecycle/
+│   │   └── data-lifecycle.md
+│   ├── data-science-analysis/
+│   └── data-science-goals/
+│       └── data-science-goals.md
 ├── courses/
 │   ├── AWS-AI-Practitioner-Challenge/
 │   │   ├── Lesson-1/
-│   │   │   └── fundamentals_of_machine_learning_and_artificial_intelligence.md
+│   │   │   ├── fundamentals_of_machine_learning_and_artificial_intelligence.md
+│   │   │   └── machine_learning_fundamentals.md
 │   │   └── Lesson-2/
 │   ├── datacamp-courses/
 │   └── kaggle-courses/
@@ -50,10 +58,17 @@ applied-data-science/
 │           ├── NBA_USvideos.csv
 │           ├── top_10_highest_viewed_USvideos.csv
 │           └── US_videos_2015_to_2018.csv
-└── README.md
+├── README.md
+└── TODO.txt
 ```
 
 ## How to Use This Repository
+
+### Concepts
+Foundational data science concepts and learning materials:
+- **Data Lifecycle**: Understanding the complete data lifecycle from collection to insights
+- **Data Science Analysis**: Analytical frameworks and methodologies
+- **Data Science Goals**: Defining and measuring data science objectives
 
 ### Courses
 - **AWS AI Practitioner Challenge**: Foundational AWS AI concepts and machine learning fundamentals
@@ -73,4 +88,4 @@ applied-data-science/
 
 ## Notes
 - `courses/datacamp-courses/` and `courses/kaggle-courses/Python/` are set up for future content
-- Last updated: April 2, 2026
+- Last updated: April 4, 2026
