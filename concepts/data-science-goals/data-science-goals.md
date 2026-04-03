@@ -1,6 +1,4 @@
-# Data Science Goals
-
-## Concept I learned when choosing the right learning approach
+# Model Learning Approach/Process
 
 Define the goal first, check the data constraint, and select the algorithm based on the selected learning approach and weigh-in the performance, complexity, and resources.
 
