@@ -21,4 +21,12 @@ There are two types of data used in *training* a model also:
     - **Text data**: A type of unstructured data consisting of documents, social media post, articles, and any other textual data.
     - **Image data**: Consisting of images, photographs, or any other video frames.
 
+## Machine Learning Process
+
+```
+-----------------                     ----------------                     ---------
+| Training Data | ------------------> | ML Algorithm | ------------------> | Model |
+-----------------                     ----------------                     ---------
+```
+
 The compiled training data is fed into the Machine Learning Model. The process of learning for the model typically divides into three types: *Supervised Learning*, *Unsupservised Learning*, and *Reinforcement Learning*.
