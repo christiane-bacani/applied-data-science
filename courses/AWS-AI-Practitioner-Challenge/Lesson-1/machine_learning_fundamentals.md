@@ -16,3 +16,7 @@ There are two types of data used in *training* a model also:
 1. **Structured data**: Structured data have a predefined structure or format that does not change over time. This is suitable for a *Machine Learning Model* that needed a data with well-defined features and labels. Below are types of structured data:
    - **Tabular data**: A tabular data have consistent instances defined as a row and different properties or labels defined as a column. This type of structured data is commonly seen in CSV files, Tables, or Databases.
    - **Time-series data**: A type of structured data that provides a sequence of values at different points in time such as stock prices, sensor readings, weather data.
+
+2. **Unstructured data**: This type of data lacks a predefined format and does not organize its attribute in a fixed structure. This type of data needed a more advance machine learning model to extract its insights and meaningful patterns. Below are types of unstructured data:
+    - **Text data**: A type of unstructured data consisting of documents, social media post, articles, and any other textual data.
+    - **Image data**: Consisting of images, photographs, or any other video frames.
