@@ -1,15 +1,15 @@
-### Fundamentals of Machine Learning and Artificial Intelligence
+# Fundamentals of Machine Learning and Artificial Intelligence
 
-#### 1. What is Articial Intelligence?
+## 1. What is Artificial Intelligence?
 Artificial Intelligence is a broad concept that encompasses the development of intelligent systems that is capable of performing a task that typically requires human intelligence.
 
-#### 2. What is Machine Learning?
+## 2. What is Machine Learning?
 Machine Learning is a *type of AI* that focuses on building algorithms that makes it possible for machine to learn using **data**.
 
-#### 3. What is Deep Learning?
+## 3. What is Deep Learning?
 Deep Learning is a *subset of Machine Learning* that mirrors how our brain works by using **neural network** such as neurons and synapses to learn complex patterns and relationships from its data.
 
-#### 4.. What is Generative AI?
+## 4. What is Generative AI?
 Generative AI is a branch of **Artifical Intelligence** specifically a *subset of Deep Learning* that focuses on creating new content such as text, image, audio, or even computer code from existing data. Unlike traditional AI systems or Machine Learning Models that analyze and interpret data, **Generative AI** learn new patterns and relationships from its huge amount of training data and use that knowledge to generate new content.
 
 Practical applications include:
