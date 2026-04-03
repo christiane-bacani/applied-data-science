@@ -53,4 +53,9 @@ The compiled training data is fed into the Machine Learning Model. The process o
 -----------------                     ----------------                     ---------
 ```
 
-After the model has been trained, we will now use the information that the model learned during training in order to make new decisions or predictions to a new or unforeseen data and that is called *inference/inferencing* in machine learning. We have two types of inference/inferencing. Below is the type:
+After the model has been trained, we will now use the model to predict or perform decisions using *new or unforeseen data* and that is called *inference*. Below is the two types of inference use in machine learning.
+
+1. **Batch Inference**: The type of inference when serving the data in sequence and not in real-time and the accuracy of the model does not depend on latency of the data.
+2. **Real-time Inference**: The type of inference that serving the data needs to be immediate or as fast as possible and the latency is crucial for the model to make predictions or decisions.
+
+Both this type of inference is useful and picking one of them depends on the situation and use cases.
