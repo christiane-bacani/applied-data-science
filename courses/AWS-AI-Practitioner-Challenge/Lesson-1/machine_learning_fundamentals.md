@@ -43,4 +43,12 @@ The compiled training data is fed into the Machine Learning Model. The process o
 
 2. **Unsupervised Learning**: A type of ML learning approach or process that the algorithm is trained using unlabeled data. The goal of this approach is to let the algorithm discover complex relationship, patterns, and structure of the input data.
 
-3. **Reinforcement Learning**: In this approach, the model have only the performance score as a guidance and *semi-supervised learning* approach. The goal is to improve the decision-making capabilities of the model by trial and error and giving them rewards and penalties as a feedback and the model will learn from the feedback to improve its decision making.
+3. **Reinforcement Learning**: In this approach, the model goes through trial and error and learn from feedback given naturally by the environment. The goal is to improve the model through feedback via rewards or penalties and the model will improve over time because of this. This will be chosen if the goal of the problem involves continuous adaptation, sequential decisions, or the model needs to learn through trial and error.
+
+## Inferencing
+
+```
+-----------------                     ----------------                     ---------
+| Training Data | ------------------> | ML Algorithm | ------------------> | Model |
+-----------------                     ----------------                     ---------
+```
