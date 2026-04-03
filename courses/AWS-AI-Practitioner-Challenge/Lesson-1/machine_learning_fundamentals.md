@@ -20,3 +20,5 @@ There are two types of data used in *training* a model also:
 2. **Unstructured data**: This type of data lacks a predefined format and does not organize its attribute in a fixed structure. This type of data needed a more advance machine learning model to extract its insights and meaningful patterns. Below are types of unstructured data:
     - **Text data**: A type of unstructured data consisting of documents, social media post, articles, and any other textual data.
     - **Image data**: Consisting of images, photographs, or any other video frames.
+
+The compiled training data is fed into the Machine Learning Model. The process of learning for the model typically divides into three types: *Supervised Learning*, *Unsupservised Learning*, and *Reinforcement Learning*.
