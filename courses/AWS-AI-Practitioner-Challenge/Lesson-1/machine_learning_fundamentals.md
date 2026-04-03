@@ -15,4 +15,4 @@ There are two types of data used in *training* a model also:
 
 1. **Structured data**: Structured data have a predefined structure or format that does not change over time. This is suitable for a *Machine Learning Model* that needed a data with well-defined features and labels. Below is a types of structured data:
     **Tabular data**: A tabular data have a consistent instances define as a row and different properties or labels define as a column. This type of structured data is commonly seen in CSV files, Tables, or Databases.
-    **Time-series data**: A type of structured data that provides a sequence of values in different time-series.
+    **Time-series data**: A type of structured data that provides a sequence of values in different points of time such as stock prices, sensor readings, weather data.
