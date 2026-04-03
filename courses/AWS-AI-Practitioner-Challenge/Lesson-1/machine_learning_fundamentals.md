@@ -52,3 +52,5 @@ The compiled training data is fed into the Machine Learning Model. The process o
 | Training Data | ------------------> | ML Algorithm | ------------------> | Model |
 -----------------                     ----------------                     ---------
 ```
+
+After the model has been trained, we will now use the information that the model learned during training in order to make new decisions or predictions to a new or unforeseen data and that is called *inference/inferencing* in machine learning. We have two types of inference/inferencing. Below is the type:
