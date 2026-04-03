@@ -2,7 +2,7 @@
 
 ## Concept I learned when choosing the right learning approach
 
-Define the goal first, check the data constraint, and select the algorithm based on the learning approach.
+Define the goal first, check the data constraint, and select the algorithm based on the selected learning approach and weigh-in the performance, complexity, and resources.
 
 ```
 Exploratory Data Analayiss
