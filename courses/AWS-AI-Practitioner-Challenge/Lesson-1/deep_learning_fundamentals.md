@@ -10,3 +10,5 @@ The core of deep learning is neural network. Just like our brain have neurons th
 Neural network image
 
 ![Neural Network Image](neural_network.png)
+
+There are many examples of neural network, such as when a customer bought a product or services, the model starts to figure out patterns by adjusting the connections of each node. It's like the nodes are talking to each other in order to slowly figure out patterns about a certain product or services a customer will most likely buy.
