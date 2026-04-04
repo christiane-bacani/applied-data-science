@@ -12,3 +12,5 @@ Neural network image
 ![Neural Network Image](neural_network.png)
 
 There are many examples of neural network, such as when a customer bought a product or services, the model starts to figure out patterns by adjusting the connections of each node. It's like the nodes are talking to each other in order to slowly figure out patterns about a certain product or services a customer will most likely buy.
+
+When the neural network recognizes these patterns and starts making decisions or predictions on new customers it never seen before, it can still predict which most likely product or services they might want to buy.
