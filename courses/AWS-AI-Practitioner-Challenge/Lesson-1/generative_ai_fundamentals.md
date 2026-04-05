@@ -11,3 +11,7 @@ Machine Learning has been around for many decades which leads you to a question 
 ## FM Lifecycle
 
 The FM Lifecycle covers multiple stages or steps on developing reliable foundational model that empowers almost all Generative AI today.
+
+1. **Data Selection**: The model is needed to be train on massive volume and diverse sources of dataset. It is more common to use *Unlabeled data* for pre-training because it is more abundant and easier to collect than *Labeled Data*.
+
+2. **Pre-training**: The model is now needed to perform on a process called *Pre-training*. Unlike traditional ML that has three learning approach: Supervised Learning, Unsupevised Learning, and Reinforcement Learning; The model model uses a learning approach called *Self-Supervised Learning* where it uses the structure of the dataset to auto-generate labels. For example, the model can discover or learn that the image dataset about drinks is a beverage (noun) or needed to be swallowed as a liquid (verb). After performing pre-training, the model can further continue doing this but in new data and context and it is called *Continuous Pre-Training* where the model will learn new data to perform task in different domain.
