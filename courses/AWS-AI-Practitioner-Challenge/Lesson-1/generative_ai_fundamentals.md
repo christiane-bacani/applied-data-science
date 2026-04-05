@@ -4,7 +4,7 @@ Machine Learning has been around for many decades which leads you to a question 
 
 ## Foundational Model
 
-![Foundational Model Image](foundational_model.png)
+![Foundational Model Image](images/foundational_model.png)
 
 *Foundational Model* serves as a foundation or engine to empower Generative AI. Foundational Models are pre-trained on massive amount of data to perform multiple task such as text generation/summarization, information extraction, image generation, chatbot, and question answering. This is useful because compared to traditional ML Model that you train multiple models for different task, Foundational Model can perform this multiple task in a single unified model.
 
