@@ -1,1 +1,3 @@
 # Generative AI Fundamentals
+
+Machine Learning has been around for many decades which leads you to a question about what led to the emergence of *Generative AI*? The answer is simple and straightforward. Companies are willing to invest more in computing resources and hiring large team that is willing to invest in generating and implementing new ideas. This are all contributors to the emergence of Generative AI.
