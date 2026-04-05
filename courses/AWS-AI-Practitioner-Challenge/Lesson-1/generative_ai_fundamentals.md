@@ -21,3 +21,5 @@ The FM Lifecycle covers multiple stages or steps on developing reliable foundati
 4. **Evaluation**: Whether or not you use a pre-trained model off the shelf or fine-tune a model, the next step of the FM Lifecycle is to evaluate the performance of the model using multiple metrics or benchmark in order to assess if the model meets the business needs.
 
 5. **Deployment**: After performing evaluation, the model are now ready to deploy into a production environment. There are many methods on deploying a model such as integrating it into an existing application, using APIs, or using any other software systems.
+
+6. **Feedback and continuous improvement**: After deployment, the model will be monitored and gain feedback from different users, domain experts, and stakeholders. Monitoring also allows to detect model biases or drift and perform enhancement to fix this problem such as fine-tuning, continuous pre-training, or re-training if needed.
