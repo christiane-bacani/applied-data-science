@@ -1,1 +1,1 @@
-# Generatiev AI Fundamentals
+# Generative AI Fundamentals
