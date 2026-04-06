@@ -41,3 +41,5 @@ For example, in the image below: "This is a sample text". The token for that set
 For example, in the image below,  The word "Sunny" and "Clouds" have a close distances of embeddings, similarly to "Apple" and "Banana" because they are all related and represents same entity.
 
 ![Embeddings](images/embeddings.png)
+
+LLMs uses tokens and embeddings/vectors to understand complex languages and generate human-like text at a massive scale.
