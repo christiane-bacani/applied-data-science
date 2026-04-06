@@ -49,3 +49,5 @@ LLMs uses tokens, embeddings/vectors to understand complex human language and to
     - **Forward Diffusion**: It starts with a clean image and gradually adds noise to the data until there's no leftover except the noise.
 
     - **Reverse Diffusion**: It starts with a noisy image data and gradually removes the noise until it produce a clean and realistic image.
+
+3. **Multimodal Models**: This is a type of Generative AI that can process multiple modes of data as an input and output. Instead of relying of one mode of data like LLMs or Diffusion Model, the Multimodal Model combines them by allowing multiple data simultaneously. One practical example is video captioning, generating lessons with visual info and text, etc.
