@@ -46,6 +46,6 @@ LLMs uses tokens, embeddings/vectors to understand complex human language and to
 
 2. **Diffusion Model**: Diffusion Model is a type of Generative AI that can generate new image. This is possible because Diffusion Model has a two-step learning process called: *Forward Diffusion* and *Reverse Diffusion*.
 
-    - **Forward Diffusion**: It starts with a clean and coherent image and gradually adds noise to the data     until there's no left over except the noise.
+    - **Forward Diffusion**: It starts with a clean image and gradually adds noise to the data until there's no leftover except the noise.
 
-    - **Reverse Diffusion**: This is where the model will learn to generate new image because it gradually removes the noise until it removes completely all the noise to the data and produce a clean image.
+    - **Reverse Diffusion**: It starts with a noisy image data and gradually removes the noise until it produce a clean and realistic image.
