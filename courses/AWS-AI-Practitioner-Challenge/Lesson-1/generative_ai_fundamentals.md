@@ -35,3 +35,9 @@ To understand on how LLMs work, below are the explanations for tokens and embedd
 For example, in the image below: "This is a sample text". The token for that setence is "This", "is", "a", "sample", and "text".
 
 ![Tokens](images/tokens.jpg)
+
+**Embeddings and Vectors**: Embedding is a special type of a vector that provides numerical representation of every token. The goal of embedding is to capture the meaning and relationship of every token using vectors. This allow the model to learn the context and nuances of the language.
+
+For example, in the image below,  The word "Sunny" and "Clouds" have a close distances of embeddings, similarly to "Apple" and "Banana" because they are all related and represents same entity.
+
+![Embeddings](images/embeddings.png)
