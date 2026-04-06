@@ -27,3 +27,11 @@ The FM Lifecycle covers multiple stages or steps on developing reliable foundati
 There are multiple types of Generative AI that empowered by Foundational Model:
 
 1. **Large Language Models**: Large language models have different architectures but the most commone one for today's state-of-the art model is called *Transformer Architecture*. Transformer-Based LLMs can understand text and generate human-like text because they are trained on massive amount of text dataset such as in the internet, newspaper, articles, or even books.
+
+To understand on how LLMs work, below are the explanations for tokens and embedding/vectors:
+
+- **Tokens**: The basic unit of text is called 'Token'. The token can be in a formed of a character, phrases, paragraph, or even period. It provides standardization and format to make it easier for model to process it.
+
+For example, in the image below: "This is a sample text". The token for that setence is "This", "is", "a", "sample", and "text".
+
+![Tokens](images/tokens.jpg)
