@@ -30,9 +30,9 @@ There are multiple types of Generative AI that empowered by Foundational Model:
 
 To understand on how LLMs work, below are the explanations for tokens and embedding/vectors:
 
-- **Tokens**: The basic unit of text is called 'Token'. The token can be in a formed of a character, phrases, paragraph, or even period. It provides standardization and format to make it easier for model to process it.
+- **Tokens**: The basic and tiny unit of text that a model can process. The goal of token is to standardize the format of text to make the model process them easily and efficiently.
 
-For example, in the image below: "This is a sample text". The token for that setence is "This", "is", "a", "sample", and "text".
+For example, in the image below, The token can be represented as "This", "is", "a", "sample", and "text".
 
 ![Tokens](images/tokens.jpg)
 
