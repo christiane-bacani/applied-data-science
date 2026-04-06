@@ -41,3 +41,5 @@ For example, in the image below, The token can be represented as "This", "is", "
 For example, in the image below, we can conclude that the embedding for "Apple" and "Banana" are similar because they are both fruit. This is also the case for "Sunny" and "Cloudy" because they represent weather. In vector space, all the words or token that are similar to one another have close distances of vector.
 
 ![Embeddings](images/embeddings.png)
+
+LLMs uses tokens, embeddings/vectors to understand complex human language and to be able to generate human-like text for different task such as question and answer, and creative writing.
