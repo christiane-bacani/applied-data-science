@@ -36,10 +36,8 @@ For example, in the image below: "This is a sample text". The token for that set
 
 ![Tokens](images/tokens.jpg)
 
-**Embeddings and Vectors**: Embedding is a special type of a vector that provides numerical representation of every token. The goal of embedding is to capture the meaning and relationship of every token using vectors. This allow the model to learn the context and nuances of the language.
+**Embeddings and Vectors**: Embeddings provide numerical representation to every tokens using vector. A vector is a list of numbers. The goal of embedding is to provide vectors or numerical representation that captures the meaning of the token and the relationship to other token using vectors also. This will make the model learn the nuances, context, meaning, and relationship of every word or text data as a token.
 
-For example, in the image below,  The word "Sunny" and "Clouds" have a close distances of embeddings, similarly to "Apple" and "Banana" because they are all related and represents same entity.
+For example, in the image below, we can conclude that the embedding for "Apple" and "Banana" are similar because they are both fruit. This is also the case for "Sunny" and "Cloudy" because they represent weather. In vector space, all the words or token that are similar to one another have close distances of vector.
 
 ![Embeddings](images/embeddings.png)
-
-LLMs uses tokens and embeddings/vectors to understand complex languages and generate human-like text at a massive scale.
