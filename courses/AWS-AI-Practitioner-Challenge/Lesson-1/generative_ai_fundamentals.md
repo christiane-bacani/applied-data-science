@@ -51,3 +51,11 @@ LLMs uses tokens, embeddings/vectors to understand complex human language and to
     - **Reverse Diffusion**: It starts with a noisy image data and gradually removes the noise until it produce a clean and realistic image.
 
 3. **Multimodal Models**: This is a type of Generative AI that can process multiple modes of data as an input and output. Instead of relying of one mode of data like LLMs or Diffusion Model, the Multimodal Model combines them by allowing multiple data simultaneously. One practical example is video captioning, generating lessons with visual info and text, etc.
+
+4. **Generative Adversarial Networks (GANs)**: GANs is a type of Generative AI that has a two special neural network called *Generators* and *Discriminators*. The goal is to compete the two neural network into a framework called "zero-sum game".
+
+    - **Generators**: A neural network from GAN that can produce synthetic data from a random noise input.
+
+    - **Discriminators**: A neural network that the sole purpose is to classify the generated data of Generator if they are real or synthetic data.
+
+    During the training process, the Generator will fool the Discriminator by creating a synthetic data that looks realistic while the Discriminator will classify the generated data if they are real or not. The goal is to fool the Discriminator into thinking that a generated data is real.
