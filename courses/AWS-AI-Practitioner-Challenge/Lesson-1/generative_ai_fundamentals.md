@@ -23,3 +23,7 @@ The FM Lifecycle covers multiple stages or steps on developing reliable foundati
 5. **Deployment**: After performing evaluation, the model are now ready to deploy into a production environment. There are many methods on deploying a model such as integrating it into an existing application, using APIs, or using any other software systems.
 
 6. **Feedback and continuous improvement**: After deployment, the model will be monitored and gain feedback from different users, domain experts, and stakeholders. Monitoring also allows to detect model biases or drift and perform enhancement to fix this problem such as fine-tuning, continuous pre-training, or re-training if needed.
+
+There are multiple types of Generative AI that empowered by Foundational Model:
+
+1. **Large Language Models**: Large language models have different architectures but the most commone one for today's state-of-the art model is called *Transformer Architecture*. Transformer-Based LLMs can understand text and generate human-like text because they are trained on massive amount of text dataset such as in the internet, newspaper, articles, or even books.
