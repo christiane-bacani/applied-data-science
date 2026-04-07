@@ -81,3 +81,6 @@ A crucial phase in Foundational Model Lifecycle is the optimization phase. Optim
     - **Input data**: The input for which you want a response.
 
     - **Output**: An example of output format/type that the model should produce or do.
+
+    *An example of prompt*:
+        "You are an experienced teacher with 20+ years of teaching experience specializing in teaching Artificial Intelligence to the beginner. Can you please tech me on this topic: [File Attachment]"
