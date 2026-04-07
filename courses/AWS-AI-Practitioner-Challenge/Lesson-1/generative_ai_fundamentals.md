@@ -67,3 +67,9 @@ LLMs uses tokens, embeddings/vectors to understand complex human language and to
     - **Encoders**: The Encoder will process an input data (e.g. image) and maps it to a probability distribution and produce a random point based on that distribution using *reparameterization trick*.
 
     - **Decoders**: The decoder will reconstruct the original input data (random point based on the probability distribution).
+
+## Optimizing model outputs
+
+A crucial phase in Foundational Model Lifecycle is the optimization phase. Optimization can vary based on the complexity and cost, and one of the most easiest and cheapest way to optimize the model is through *Prompt-Engineering*.
+
+1. **Prompt-Engineering**: The optimization method that guides the model on what outcome to achieve based on instructions given to them. Prompt-Engineering involves designing, developing, and optimizing prompts in order to achieve desired output by the model.
