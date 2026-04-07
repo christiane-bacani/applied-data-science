@@ -72,4 +72,12 @@ LLMs uses tokens, embeddings/vectors to understand complex human language and to
 
 A crucial phase in Foundational Model Lifecycle is the optimization phase. Optimization can vary based on the complexity and cost, and one of the most easiest and cheapest way to optimize the model is through *Prompt-Engineering*.
 
-1. **Prompt-Engineering**: The optimization method that guides the model on what outcome to achieve based on instructions given to them. Prompt-Engineering involves designing, developing, and optimizing prompts in order to achieve the desired output by the model.
+1. **Prompt Engineering**: An optimization method that gives instructions to the model in order to produce a desired output or outcome. Prompts can be in different format based on what instructions you want the model to do or produce, but the common prompts typically consist of the following:
+    
+    - **Instructions** The task that the model will do. It consist of description of the task or the instruction to perform or produce something.
+
+    - **Context**: Additional information given to the model to guide them in order to perform the instructions.
+
+    - **Input data**: The input for which you want a response.
+
+    - **Output**: An example of output format/type that the model should produce or do.
