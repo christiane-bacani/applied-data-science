@@ -90,3 +90,5 @@ A crucial phase in Foundational Model Lifecycle is the optimization phase. Optim
     - **Instruction fine-tuning**: Uses examples on how the model should respond to a specific task.
 
     - **Reinforcement learning from human feedback (RLHF)**: Provides human-feedback data to the model, to align it based on the human preferences.
+
+3. **Retrieveal-Augmented Generation (RAG)**: RAG is an optimization technique by supplying domain-level references in order to provide response or produce an output to a prompt. It provides data, specifically knowledge references in order to perform something that is needed a domain-level knowledge. It is similar to Fine-tuning but the difference is that RAG does not change the model's weight compared to Fine-tuning.
