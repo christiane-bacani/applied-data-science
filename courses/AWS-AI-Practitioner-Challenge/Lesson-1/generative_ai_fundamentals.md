@@ -84,3 +84,5 @@ A crucial phase in Foundational Model Lifecycle is the optimization phase. Optim
 
     *An example of prompt*:
         "You are an experienced teacher with 20+ years of teaching experience specializing in teaching Artificial Intelligence to the beginner. Can you please tech me on this topic: [File Attachment]"
+    
+2. **Fine-tuning**: Fine-tuning is an optimization method that trains the model in a much more smaller but narrower dataset that is designed to train the model to perform a specialized task that requires knowledge rather than relying on general knowledge of the pre-trained model by using supervised learning approach.
