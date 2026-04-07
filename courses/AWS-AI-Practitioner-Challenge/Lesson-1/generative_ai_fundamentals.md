@@ -85,4 +85,8 @@ A crucial phase in Foundational Model Lifecycle is the optimization phase. Optim
     *An example of prompt*:
         "You are an experienced teacher with 20+ years of teaching experience specializing in teaching Artificial Intelligence to the beginner. Can you please tech me on this topic: [File Attachment]"
     
-2. **Fine-tuning**: FM-Based model is trained using self-supervised learning approach, but in Fine-Tuning, the pre-trained model will be train again but with much smaller and narrower dataset and modifies the weights of the data, to better align with the task.
+2. **Fine-tuning**: FM-Based model is trained using self-supervised learning approach, but in Fine-Tuning, the pre-trained model will be train again but with much smaller and narrower dataset and modifies the weights of the data, to better align with the task. There are two ways to fine-tune a model:
+
+    - **Instruction fine-tuning**: Uses examples on how the model should respond to a specific task.
+
+    - **Reinforcement learning from human feedback (RLHF)**: Provides human-feedback data to the model, to align it based on the human preferences.
