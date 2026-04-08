@@ -1,6 +1,6 @@
 # AWS AI/ML Infrastructure and Technologies
 
-Below, are list of different infrastructure and technologies provided by AWS for building applications on different layers and domains.
+Below, are list of different infrastructure and technologies provided by AWS for building applications for AI/ML.
 
 ## Generative AI
 
