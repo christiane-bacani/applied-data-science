@@ -42,3 +42,5 @@ Below, are list of different infrastructure and technologies provided by AWS for
 ## Generative AI
 
 1. **Amazon SageMaker JumpStart**: Centralize hub to access different Foundational Models for different common use cases.
+
+2. **Amazon Bedrock**: A fully managed service that makes Foundational Models from Amazon and other leading AI startups available through an API.
