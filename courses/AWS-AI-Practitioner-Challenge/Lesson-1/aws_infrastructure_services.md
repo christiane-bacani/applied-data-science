@@ -38,3 +38,7 @@ Below, are list of different infrastructure and technologies provided by AWS for
 ### Miscellaneous
 
 1. **AWS Deep Racer**: Fully autonomous 1/18th scale race car that let's use gen hands-on experience for building models using reinforcement learning approach.
+
+## Generative AI
+
+1. **Amazon SageMaker JumpStart**: Centralize hub to access different Foundational Models for different common use cases.
