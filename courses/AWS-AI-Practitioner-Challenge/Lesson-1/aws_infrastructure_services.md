@@ -30,3 +30,11 @@ Below, are list of different infrastructure and technologies provided by AWS for
 ### Search
 
 1. **Amazon Kendra**: Provides search services for enterprises websites and applications.
+
+### Recommendations
+
+1. **Amazon Personalize**: Provides real-time personalization and recommendations.
+
+### Miscellaneous
+
+1. **AWS Deep Racer**: Fully autonomous 1/18th scale race car that let's use gen hands-on experience for building models using reinforcement learning approach.
