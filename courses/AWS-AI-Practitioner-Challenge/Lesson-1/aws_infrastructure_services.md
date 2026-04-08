@@ -48,3 +48,5 @@ Below, are list of different infrastructure and technologies provided by AWS for
     - **PartyRock**: A playground using Amazon Bedrock to experiment on building AI Applications.
 
 3. **Amazon Q**: Generative AI-powered assistant that is designed for work and be tailored by providing it with business's data.
+
+4. **Amazon Q Developer**: Provides ML-Powered code recommendations to accelerate software development.
