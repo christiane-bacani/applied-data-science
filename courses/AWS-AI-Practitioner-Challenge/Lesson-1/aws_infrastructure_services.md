@@ -22,3 +22,7 @@ Below, are list of different infrastructure and technologies provided by AWS for
 
 1. **Amazon Polly**: It provides text-to-speech service.
 2. **Amazon Transcribe**: This is useful for automatic speech recognition (transcription).
+
+### Vision
+
+1. **Amazon Rekognition**: A deep-learning based computer vision service that can analyze images and videos for a wide range of applications
