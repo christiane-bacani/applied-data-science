@@ -45,4 +45,4 @@ Below, are list of different infrastructure and technologies provided by AWS for
 
 2. **Amazon Bedrock**: A fully managed service that makes Foundational Models from Amazon and other leading AI startups available through an API. Using this service to access FMs, experiment, customize it with our own data, and efficiently integrate and deploy FMs into AWS Applications.
 
-    - **PartyRock**: A playground using Amazon Bedrock to experience with building AI Applications.
+    - **PartyRock**: A playground using Amazon Bedrock to experiment on building AI Applications.
