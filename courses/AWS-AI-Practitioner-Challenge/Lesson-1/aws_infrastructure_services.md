@@ -17,3 +17,8 @@ Below, are list of different infrastructure and technologies provided by AWS for
 ### Chatbots
 
 1. **Amazon Lex**: A service that you can use to build a conversational interface that powered the same deep learning technologies that drive *Amazon Alexa*.
+
+### Speech
+
+1. **Amazon Polly**: It provides text-to-speech service.
+2. **Amazon Transcribe**: This is useful for automatic speech recognition (transcription).
