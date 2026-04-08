@@ -13,3 +13,7 @@ Below, are list of different infrastructure and technologies provided by AWS for
 1. **Amazon Comprehend**: This is a service provided by AWS for natural language processing.
 2. **Amazon Translate**: A tool for language translation.
 3. **Amazon Textract**: A tool for extracting data from scanned documents.
+
+### Chatbots
+
+1. **Amazon Lex**: A service that you can use to build conversational interfaces powered by the same deep learning technologies that drive *Amazon Alexa*.
