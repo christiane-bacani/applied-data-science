@@ -26,3 +26,7 @@ Below, are list of different infrastructure and technologies provided by AWS for
 ### Vision
 
 1. **Amazon Rekognition**: A deep-learning based computer vision service that can analyze images and videos for a wide range of applications
+
+### Search
+
+1. **Amazon Kendra**: Provides search services for enterprises websites and applications.
