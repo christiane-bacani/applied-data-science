@@ -1,4 +1,6 @@
-# AWS Infrastructure and Technologies
+# AWS AI/ML Infrastructure and Technologies
+
+Below, are list of different infrastructure and technologies provided by AWS for building applications on different layers and domains.
 
 ## Generative AI
 
@@ -6,3 +8,7 @@
 2. **Amazon Bedrock**
 3. **Amazon Q**
 4. **Amazon Q Developer**
+
+## AI/ML Services
+
+## ML Frameworks
