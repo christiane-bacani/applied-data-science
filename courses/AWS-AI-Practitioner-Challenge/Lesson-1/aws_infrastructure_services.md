@@ -1,6 +1,6 @@
 # AWS AI/ML Infrastructure and Technologies
 
-AWS innovates so fast in AI/ML stack because they provide comprehensive capabilities for infrastructure. tools, and up to the ground-breaking AI-based coding. Customer loves the data-first approach of AWS, security, and breadth of enterprise-grade offerings spanning all layers.
+AWS evolves so fast in the AI/ML stack because they provide comprehensive and extensive capabilities ranging from infrastructures, tools, up to the ground-breaking AI-based coding. Customers values the data-first approach of AWS, security, and breadth of enterprise-offerings spanning all layers.
 
 ML Frameworks layer serves a crucial role on development, training, and deployment of different machine learning models. AWS offers tools and services to accelerate all of that phase.
 
