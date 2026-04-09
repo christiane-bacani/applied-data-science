@@ -1,8 +1,6 @@
 # AWS AI/ML Infrastructure and Technologies
 
-Below, are list of different infrastructure and technologies provided by AWS for building applications for AI/ML.
-
-## ML Frameworks
+AWS innovates so fast in AI/ML stack because they provide comprehensive capabilities for infrastructure. tools, and up to the ground-breaking AI-based coding. Customer loves the data-first approach of AWS, security, and breadth of enterprise-grade offerings spanning all layers.
 
 ML Frameworks layer serves a crucial role on development, training, and deployment of different machine learning models. AWS offers tools and services to accelerate all of that phase.
 
