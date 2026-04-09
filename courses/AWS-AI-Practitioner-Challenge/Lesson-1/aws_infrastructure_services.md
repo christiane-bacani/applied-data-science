@@ -10,6 +10,8 @@ ML Frameworks layer serves a crucial role on development, training, and deployme
 
 ## AI/ML Services
 
+AWS offers different tools and technologies also for AWS/ML Services that developers can use to accelerate their development and deployment of AI/ML Technologies.
+
 ### Text and documents
 
 1. **Amazon Comprehend**: This is a service provided by AWS for natural language processing.
