@@ -45,6 +45,8 @@ AWS offers different tools and technologies also for AWS/ML Services that develo
 
 ## Generative AI
 
+The generative AI services layer in the AI and ML stack offers a suite of powerful tools and services specifically designed for generative AI task.
+
 1. **Amazon SageMaker JumpStart**: Centralize hub to access different Foundational Models for different common use cases.
 
 2. **Amazon Bedrock**: A fully managed service that makes Foundational Models from Amazon and other leading AI startups available through an API. Using this service to access FMs, experiment, customize it with our own data, and efficiently integrate and deploy FMs into AWS Applications.
