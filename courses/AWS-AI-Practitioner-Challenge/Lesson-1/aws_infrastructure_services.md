@@ -4,7 +4,7 @@ Below, are list of different infrastructure and technologies provided by AWS for
 
 ## ML Frameworks
 
-1. **Amazon SageMaker**: Fully managed machine learning service that you can use to build, train, and deploy your own custom models. It provides tools and infrastructure to accelerate your ML development and deployment lifecycle.
+1. **Amazon SageMaker AI**: Fully managed machine learning service that you can use to build, train, and deploy your own custom models. It provides tools and infrastructure to accelerate your ML development and deployment lifecycle.
 
 ## AI/ML Services
 
