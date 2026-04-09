@@ -16,7 +16,7 @@ AWS offers different tools and technologies also for AWS/ML Services that develo
 
 1. **Amazon Comprehend**: This is a service provided by AWS that uses ML and natural language processing (NLP) to help you uncover the insights and relationships in our unstructured data.
 2. **Amazon Translate**: AWS Service to provide language translation using neural machine translation. Neural machine translation is a type of language translation automation that uses deep learning models to deliver accurate translation compared to traditional statistical and rule-based algorithm.
-3. **Amazon Textract**: A tool for extracting data from scanned documents. Textract goes beyond Optimal Character Recognition (OCR) but also have the capability to extract contents in a form of tables.
+3. **Amazon Textract**: A tool for extracting data from scanned documents. Textract goes beyond Optimal Character Recognition (OCR) but also have the capability to extract contents in forms and tables.
 
 ### Chatbots
 
