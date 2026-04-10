@@ -77,8 +77,8 @@ Using the tools that the AWS provide, it enables companies to grow their own cus
 Below, are the advantages that AWS provides for building AI applications:
 
 1. **Accelerated development and deployment**
-    - Amazon Q Developer can generate code in real time. Amazon ran a productivity challenge during the preview of Amazon Q Developer. Participants who used the service were 27 percent more likely to complete tasks successfully and did so an average of 57 percent faster than those who did not use Amazon Q Developer
+    - Amazon Q Developer can generate code in real time and it boost their productivity and how fast and efficient they can complete task that requires code generation.
 
-    - SageMaker handles tasks such as data preprocessing, model training, and deployment. So developers can focus on the application logic and user experience.
+    - SageMaker AI handles the preprocessing, model training, and deployment so developers can focus more on something important such as user experience and application logic.
 
-    - Amazon Bedrock provides access to pre-trained models and APIs. So developers can quickly integrate AI capabilities into their applications without the need for extensive training or specialized hardware. This accelerates the development process and permits faster iteration cycles, reducing the time to market for AI-powered applications.
+    - Amazon Bedrock provides service to enables developers to quickly integrate different models into their applications via API without fully managing the infrastructure and workflows of the model.
