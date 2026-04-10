@@ -10,7 +10,7 @@ Machine Learning Frameworks serves a crucial role on the development and deploym
 
 ## AI/ML Services
 
-# TODO
+AWS provides a robust AI/ML services layer that enables the developers to use AI/ML services without much deeper knowledge so that they can focus more on what matters the most which is the user experience and solving the problems of the user using technologies that they build and maintain.
 
 ### Text and documents
 
