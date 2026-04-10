@@ -27,7 +27,7 @@ AWS provides a robust AI/ML services layer that enables the developers to use AI
 
 ### Chatbots
 
-1. **Amazon Lex**: A service that you can use to build a conversational interface that powered the same deep learning technologies that drive *Amazon Alexa*.
+1. **Amazon Lex**: A fully managed AI service that lets us build, train, and deploy conversational interfaces into any applications. Amazon Lex provides advance deep learning capabilities for automatic speech recognition (ASR) to convert speeches into text. This enables the developers to build sophisticated systems with natural language understanding (NLU) to understand the intent of the text transcribe. This technologies is the same technologies that empowers Amazon Alexa because it uses also a technology called interactive voice response (IVR).
 
 ### Speech
 
