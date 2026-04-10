@@ -2,13 +2,15 @@
 
 AWS evolves so fast in the AI/ML stack because they provide comprehensive and extensive capabilities ranging from infrastructures, tools, up to the ground-breaking AI-based coding. Customers values the data-first approach of AWS, security, and breadth of enterprise-offerings spanning all layers.
 
-ML Frameworks layer serves a crucial role on development, training, and deployment of different machine learning models. AWS offers tools and services to accelerate all of that phase.
+## ML Frameworks
+
+Machine Learning Frameworks serves a crucial role on the development and deployment of Machine Learning Models. At the core of this layer, the AWS provides a service called *AWS SageMaker AI* that enables the user to efficiently and cost-effectively build, train, deploy, and run models and other FMs.
 
 1. **Amazon SageMaker AI**: Fully managed machine learning service that you can use to build, train, and deploy your own custom models. It provides tools and infrastructure to accelerate your ML development and deployment lifecycle. SageMaker AI provides all the components for ML in a single toolset, so models get to production faster with much less effort and at lower cost.
 
 ## AI/ML Services
 
-AWS offers different tools and technologies also for AWS/ML Services that developers can use to accelerate their development and deployment of AI/ML Technologies.
+# TODo
 
 ### Text and documents
 
