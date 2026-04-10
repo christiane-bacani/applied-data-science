@@ -99,3 +99,5 @@ Below, are the advantages that AWS provides for building AI applications:
     - AWS AI Services are seamlessly integrated with other AWS Services so developers can efficiently build end-to-end solution
 
     - The AWS Ecosystem provides wide range of APIs, SDKs, and services so developer can efficiently incorporate AI capabilities into their applications or build entirely news AI-driven applications.
+
+AWS provides secure and compliant infrastructure for building AI applications. AWS uses robust security features, industry-specific compliance attributes, and a shared responsibility model. AWS also provides services and tools to support the safe development and deployment of traditional and generative AI solutions.
