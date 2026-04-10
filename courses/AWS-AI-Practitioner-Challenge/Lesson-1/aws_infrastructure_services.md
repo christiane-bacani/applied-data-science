@@ -33,7 +33,10 @@ AWS provides a robust AI/ML services layer that enables the developers to use AI
 
 1. **Amazon Polly**: AI Service that turns text into speeches. It uses an advance deep learning technologies to syntesize speech into a human voice. It provides also a wide selection of lifelike voices spread across different languages to build products that can talk.
 
-2. **Amazon Transcribe**: This is useful for automatic speech recognition (transcription).
+2. **Amazon Transcribe**: A service to provide automatic speech recognition (ASR) service because it converts speech to text. The service can transcribe audios stored in common formats such as MP3 or WAV, you can also send a live stream to the Amazon Transcribe and it can transcribe it in real time. This type of services is suitable in different use cases such as:
+    - Automatic transcription of voice-based customer calls
+    - Generation of subtitles on audio and video content
+    - Conduct text based analysis on audio and video content from the subtitles.
 
 ### Vision
 
