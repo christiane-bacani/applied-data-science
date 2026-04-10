@@ -40,7 +40,7 @@ AWS provides a robust AI/ML services layer that enables the developers to use AI
 
 ### Vision
 
-1. **Amazon Rekognition**: A deep-learning based computer vision service that can analyze images and videos for a wide range of applications
+1. **Amazon Rekognition**: A computer vision service to provide image and video recognition service that can be integrated into our application to detect objects, people, food, and anything that can be captured using an image or video.
 
 ### Search
 
