@@ -84,4 +84,6 @@ Below, are the advantages that AWS provides for building AI applications:
     - Amazon Bedrock provides service to enables developers to quickly integrate different models into their applications via API without fully managing the infrastructure and workflows of the model.
 
 2. **Scalability and cost optimization**
-    - With pay-as-you-go pricing models, organizations or business pays only based on how much they consume resources. This reduces upfront cost and facilitates resource utilization.
+    - AWS global infrastructure and distributed computing capabilities allow applications to scale seamlessly across different regions and handles large datasets or high-volume traffic.
+
+    - With pay-as-you-go pricing models, organizations or business pays only based on how much they consume resources. This reduces upfront cost and facilitates resource utilization    
