@@ -23,7 +23,7 @@ AWS provides a robust AI/ML services layer that enables the developers to use AI
 
 2. **Amazon Translate**: A neural language translation service that provides fast, high-quality, and affordable language translation. Neural language translation is a type of language translation automation that uses deep learning technologies (specifically neural networks) to accurately translate languages rather than relying on traditional statistical and rule-based translation algorithms.
 
-3. **Amazon Textract**: A service that automatically extracts the data and content from a scanned documents but also goes beyond traditional optical character recognitino (OCR) because this tool lets us extract contents and fields stored in forms and tables.
+3. **Amazon Textract**: A service that automatically extracts the data and content from a scanned documents but also goes beyond traditional optical character recognition (OCR) because this tool lets us extract contents and fields stored in forms and tables.
 
 ### Chatbots
 
@@ -31,7 +31,8 @@ AWS provides a robust AI/ML services layer that enables the developers to use AI
 
 ### Speech
 
-1. **Amazon Polly**: It provides text-to-speech service.
+1. **Amazon Polly**: AI Service that turns text into speeches. It uses an advance deep learning technologies to syntesize speech into a human voice. It provides also a wide selection of lifelike voices spread across different languages to build products that can talk.
+
 2. **Amazon Transcribe**: This is useful for automatic speech recognition (transcription).
 
 ### Vision
