@@ -82,3 +82,6 @@ Below, are the advantages that AWS provides for building AI applications:
     - SageMaker AI handles the preprocessing, model training, and deployment so developers can focus more on something important such as user experience and application logic.
 
     - Amazon Bedrock provides service to enables developers to quickly integrate different models into their applications via API without fully managing the infrastructure and workflows of the model.
+
+2. **Scalability and cost optimization**
+    - With pay-as-you-go pricing models, organizations or business pays only based on how much they consume resources. This reduces upfront cost and facilitates resource utilization.
