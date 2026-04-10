@@ -86,4 +86,4 @@ Below, are the advantages that AWS provides for building AI applications:
 2. **Scalability and cost optimization**
     - AWS global infrastructure and distributed computing capabilities allow applications to scale seamlessly across different regions and handles large datasets or high-volume traffic.
 
-    - With pay-as-you-go pricing models, organizations or business pays only based on how much they consume resources. This reduces upfront cost and facilitates resource utilization    
+    - With pay-as-you-go pricing models, organizations or business pays only based on how much they consume resources. This reduces upfront cost and facilitates resource utilization.
