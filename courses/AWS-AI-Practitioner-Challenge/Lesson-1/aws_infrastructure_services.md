@@ -73,3 +73,12 @@ The generative AI services layer in the AI and ML stack offers a suite of powerf
 From smallest to largest companies that relies on AWS to innovate with powerful AI tools because AWS provides top-notch security and privacy first feature to keep their data safe and lets them access to the most updated and advance models available on the market.
 
 Using the tools that the AWS provide, it enables companies to grow their own custom AI applications that uses Generative AI. AWS wants them to take advantage on Generative AI technology to create something that is truly unique and personalized.
+
+Below, are the advantages that AWS provides for building AI applications:
+
+1. **Accelerated development and deployment**
+    - Amazon Q Developer can generate code in real time. Amazon ran a productivity challenge during the preview of Amazon Q Developer. Participants who used the service were 27 percent more likely to complete tasks successfully and did so an average of 57 percent faster than those who did not use Amazon Q Developer
+
+    - SageMaker handles tasks such as data preprocessing, model training, and deployment. So developers can focus on the application logic and user experience.
+
+    - Amazon Bedrock provides access to pre-trained models and APIs. So developers can quickly integrate AI capabilities into their applications without the need for extensive training or specialized hardware. This accelerates the development process and permits faster iteration cycles, reducing the time to market for AI-powered applications.
