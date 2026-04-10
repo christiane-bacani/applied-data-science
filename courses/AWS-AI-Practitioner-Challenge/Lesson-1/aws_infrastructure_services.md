@@ -70,4 +70,4 @@ The generative AI services layer in the AI and ML stack offers a suite of powerf
 
 ## Advantages and benefits of AWS AI solutions
 
-From smallest companies up to the largest organizations, they rely on AWS to innovate with powerful AI tools. AWS provides top-notch secury and privacy first feature to keep your data safe and gives you to the most updated models available.
+From smallest companies up to the largest organizations, they rely on AWS to innovate with powerful AI tools. AWS provides top-notch secury and privacy first feature to keep your data safe and gives you to the most updated and advance models available.
