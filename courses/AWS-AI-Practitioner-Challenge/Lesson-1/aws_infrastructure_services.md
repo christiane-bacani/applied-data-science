@@ -14,7 +14,8 @@ AWS provides a robust AI/ML services layer that enables the developers to use AI
 
 ### Text and documents
 
-1. **Amazon Comprehend**: This is a service provided by AWS that uses ML and natural language processing (NLP) to help you uncover the insights and relationships in our unstructured data.
+1. **Amazon Comprehend**: It uses Machine Learning and Natural Language Processing (NLP) to help us uncover insights and relationships in our unstructured data. Below are the following services that the platform provides:
+    
 2. **Amazon Translate**: AWS service to provide language translation using neural machine translation.
 3. **Amazon Textract**: A tool for extracting data from scanned documents. Textract goes beyond Optimal Character Recognition (OCR) but also have the capability to extract contents in forms and tables.
 
