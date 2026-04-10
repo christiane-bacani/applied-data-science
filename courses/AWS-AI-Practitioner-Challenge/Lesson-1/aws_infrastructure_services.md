@@ -87,3 +87,8 @@ Below, are the advantages that AWS provides for building AI applications:
     - AWS global infrastructure and distributed computing capabilities allow applications to scale seamlessly across different regions and handles large datasets or high-volume traffic.
 
     - With pay-as-you-go pricing models, organizations or business pays only based on how much they consume resources. This reduces upfront cost and facilitates resource utilization.
+
+3. **Flexibility and access to models**
+    - AWS constantly or consistently updated and expands its services and wide range of tools especially in the AI landscape to provide better and updated machine learning models, algorithms, and different techniques.
+
+    - Amazon Bedrock offers a choice of huge variety of high-performing Foundational Models of leading AI companies such as AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, Stability AI, and AWS through a single API.
