@@ -111,3 +111,5 @@ Below are the list of considerations to assess before choosing the right AWS Ser
 2. **Redundancy and Regional coverage**: To ensure high-availability and robustness of the AWS Services, it can be deployed across different regions or locations but with a trade-offs, because adding another existing service requires provisioning which cost more resources.
 
 3. **Performance**: AWS offers different computing options such as CPU, GPU, or custom hardware accelerators. GPU options can be much more expensive because they provide better performance in a certain workloads or tasks.
+
+4. **Token-based pricing**: Certain AWS Services uses token-based pricing such as Amazon Bedrock and Amazon Bedrock, which means the more tokens (units of text or code) you used, the more expensive you will pay.
