@@ -104,7 +104,7 @@ AWS provides secure and compliant infrastructure for building AI applications. A
 
 ## Cost Considerations
 
-Below are the list of considerations to assess before choosing the right AWS Services to use based on different considerations.
+Below are the list of cost considerations to assess before choosing the right AWS Services to use based on different workloads.
 
 1. **Responsiveness and availability**: AWS AI Services are designed to be highly-responsive and available but the trade-offs is that this services are more expensive compared to other service with lower-performance.
 
