@@ -116,3 +116,5 @@ Below are the list of cost considerations to assess before choosing the right AW
 Bedrock, which means the more tokens (units of text or code) you used, the more expensive you will pay.
 
 5. **Provisioned Throughput**: Some AWS Service such as Amazon Polly or Transcribe can have the option to provision its throughput (how much/accurate it produce). Higher provisioned throughput level are much more expensive but ensures predictable output for a certain workloads.
+
+6. **Custom Models**: AWS provides various pre-trained model but we can also build, train, and deploy our own custom models. But building and using custom models are much more expensive because it adds or produce complexity like using more training data or more computations.
