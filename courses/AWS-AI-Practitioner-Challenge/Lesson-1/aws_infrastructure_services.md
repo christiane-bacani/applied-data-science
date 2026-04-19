@@ -109,3 +109,5 @@ Below are the list of considerations to assess before choosing the right AWS Ser
 1. **Responsiveness and availability**: AWS AI Services are designed to be highly-responsive and available but the trade-offs is that this services are more expensive compared to other service with lower-performance.
 
 2. **Redundancy and Regional coverage**: To ensure high-availability and robustness of the AWS Services, it can be deployed across different regions or locations but with a trade-offs, because adding another existing service requires provisioning which cost more resources.
+
+3. **Performance**: AWS offers different computing options such as CPU, GPU, or custom hardware. GPU options can be much more expensive because they provide better performance in a certain workloads or tasks.
