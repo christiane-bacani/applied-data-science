@@ -112,4 +112,7 @@ Below are the list of cost considerations to assess before choosing the right AW
 
 3. **Performance**: AWS offers different computing options such as CPU, GPU, or custom hardware accelerators. GPU options can be much more expensive because they provide better performance in a certain workloads or tasks.
 
-4. **Token-based pricing**: Certain AWS Services uses token-based pricing such as Amazon Bedrock and Amazon Bedrock, which means the more tokens (units of text or code) you used, the more expensive you will pay.
+4. **Token-based pricing**: Certain AWS Services uses token-based pricing such as Amazon Bedrock and Amazon 
+Bedrock, which means the more tokens (units of text or code) you used, the more expensive you will pay.
+
+5. **Provisioned Throughput**: Some AWS Service such as Amazon Polly or Transcribe can have the option to provision its throughput (how much/accurate it produce). Higher provisioned throughput level are much more expensive but ensures predictable output for a certain workloads.
