@@ -23,9 +23,17 @@ def create_3D_arr(df1: pd.Series, df2: pd.Series) -> ndarray:
     return three_dim_arr
 
 def create_zero_elem_arr(data_shape: tuple) -> ndarray:
-    """Create NumPy based on the given dataset shape."""
+    """Create NumPy Array based on the given dataset shape."""
     zero_elem_arr = np.zeros(shape=data_shape)
     return zero_elem_arr
+
+def create_random_elem_arr(data_shape: tuple) -> ndarray:
+    """Create NumPy Array with random elements based on the given dataset shape."""
+    if data_shape == (1):
+        return np.random.random()
+
+    else:
+        return np.random.random(size=data_shape)
 
 one_dim_array = create_1D_arr(df["Person_ID"])
 print("One-dimensional Array:")
@@ -60,3 +68,8 @@ print()
 three_dim_zero_elem_array = create_zero_elem_arr(data_shape=(3, 2000, 4))
 print("Three-dimensional zero elements Array:")
 print(three_dim_zero_elem_array)
+
+print()
+
+one_dim_random_elem_array = create_random_elem_arr(data_shape=(1))
+print(one_dim_random_elem_array)
