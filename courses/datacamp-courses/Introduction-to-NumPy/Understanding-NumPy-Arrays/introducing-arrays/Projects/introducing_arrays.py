@@ -1,12 +1,13 @@
 import pandas as pd
 import numpy as np
+from numpy import ndarray
 
-def create_oned_arr(df: pd.Series) -> np.array:
+def create_oned_arr(df: pd.Series) -> ndarray:
     """Create one-dimensional array using NumPy Package."""
     oned_arr = np.array(df)
     return oned_arr
 
-def create_twod_arr(df1: pd.Series, df2: pd.Series) -> np.array:
+def create_twod_arr(df1: pd.Series, df2: pd.Series) -> ndarray:
     """Create two-dimensional array using NumPy Package."""
     twod_arr = np.column_stack([df1, df2])
     return twod_arr
