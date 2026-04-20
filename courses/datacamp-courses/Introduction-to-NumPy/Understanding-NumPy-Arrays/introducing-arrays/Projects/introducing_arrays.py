@@ -23,16 +23,17 @@ def create_threed_arr(df1: pd.Series, df2: pd.Series) -> ndarray:
     return threed_arr
 
 oned_array = create_oned_arr(df["Person_ID"])
-print(f"One-dimensional Array:")
+print("One-dimensional Array:")
 print(oned_array)
 
 print()
 
 twod_array = create_twod_arr(df["Person_ID"], df["Age"])
-print(f"Two-dimensional Array:")
+print("Two-dimensional Array:")
 print(twod_array)
 
 print()
 
 threed_array = create_threed_arr(df["Person_ID"], df["Occupation"])
+print("Thre-dimensional Array:")
 print(threed_array.shape)
