@@ -4,36 +4,53 @@ from numpy import ndarray
 
 df = pd.read_csv("courses/datacamp-courses/Introduction-to-NumPy/Understanding-NumPy-Arrays/introducing-arrays/Datasets/mental_health.csv")
 
-def create_oned_arr(df: pd.Series) -> ndarray:
+def create_1D_arr(df: pd.Series) -> ndarray:
     """Create one-dimensional array using NumPy Package."""
-    oned_arr = np.array(df)
-    return oned_arr
+    one_dim_arr = np.array(df)
+    return one_dim_arr
 
-def create_twod_arr(df1: pd.Series, df2: pd.Series) -> ndarray:
+def create_2D_arr(df1: pd.Series, df2: pd.Series) -> ndarray:
     """Create two-dimensional array using NumPy Package."""
-    twod_arr = np.column_stack([df1, df2])
-    return twod_arr
+    two_dim_arr = np.column_stack([df1, df2])
+    return two_dim_arr
 
-def create_threed_arr(df1: pd.Series, df2: pd.Series) -> ndarray:
+def create_3D_arr(df1: pd.Series, df2: pd.Series) -> ndarray:
     """Create three-dimensional array using NumPy Package."""
-    threed_arr = np.array([
+    three_dim_arr = np.array([
         np.column_stack([df1, df2]),
         np.column_stack([df1, df2])
     ])
-    return threed_arr
+    return three_dim_arr
 
-oned_array = create_oned_arr(df["Person_ID"])
+def create_zero_elem_arr(data_shape: tuple) -> ndarray:
+    """Create NumPy based on the given dataset shape."""
+    zero_elem_arr = np.zeros(shape=data_shape)
+    return zero_elem_arr
+
+one_dim_array = create_1D_arr(df["Person_ID"])
 print("One-dimensional Array:")
-print(oned_array)
+print(one_dim_array)
 
 print()
 
-twod_array = create_twod_arr(df["Person_ID"], df["Age"])
+two_dim_array = create_2D_arr(df["Person_ID"], df["Age"])
 print("Two-dimensional Array:")
-print(twod_array)
+print(two_dim_array)
 
 print()
 
-threed_array = create_threed_arr(df["Person_ID"], df["Occupation"])
-print("Thre-dimensional Array:")
-print(threed_array.shape)
+three_dim_array = create_3D_arr(df["Person_ID"], df["Occupation"])
+print("Three-dimensional Array:")
+print(three_dim_array)
+
+print()
+
+one_dim_zero_elem_array = create_zero_elem_arr(data_shape=(2000))
+print("One-dimensional zero elements Array:")
+print(one_dim_zero_elem_array)
+
+print()
+
+two_dim_zero_elem_array = create_zero_elem_arr(data_shape=(2000, 4))
+print("Two-dimensional zero elements Array:")
+print(two_dim_zero_elem_array)
