@@ -12,14 +12,27 @@ def create_twod_arr(df1: pd.Series, df2: pd.Series) -> ndarray:
     twod_arr = np.column_stack([df1, df2])
     return twod_arr
 
+def create_threed_arr(df1: pd.Series, df2: pd.Series) -> ndarray:
+    """Create three-dimensional array using NumPy Package."""
+    threed_arr = np.array([
+        np.column_stack([df1, df2]),
+        np.column_stack([df1, df2])
+    ])
+    return threed_arr
+
 df = pd.read_csv("courses/datacamp-courses/Introduction-to-NumPy/Understanding-NumPy-Arrays/introducing-arrays/Datasets/mental_health.csv")
 
-person_id = create_oned_arr(df["Person_ID"])
+oned_array = create_oned_arr(df["Person_ID"])
 print(f"One-dimensional Array:")
-print(person_id)
+print(oned_array)
 
 print()
 
-person_id_and_age = create_twod_arr(df["Person_ID"], df["Age"])
+twod_array = create_twod_arr(df["Person_ID"], df["Age"])
 print(f"Two-dimensional Array:")
-print(person_id_and_age)
+print(twod_array)
+
+print()
+
+threed_array = create_threed_arr(df["Person_ID"], df["Occupation"])
+print(threed_array.shape)
