@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 from numpy import ndarray
 
+df = pd.read_csv("courses/datacamp-courses/Introduction-to-NumPy/Understanding-NumPy-Arrays/introducing-arrays/Datasets/mental_health.csv")
+
 def create_oned_arr(df: pd.Series) -> ndarray:
     """Create one-dimensional array using NumPy Package."""
     oned_arr = np.array(df)
@@ -19,8 +21,6 @@ def create_threed_arr(df1: pd.Series, df2: pd.Series) -> ndarray:
         np.column_stack([df1, df2])
     ])
     return threed_arr
-
-df = pd.read_csv("courses/datacamp-courses/Introduction-to-NumPy/Understanding-NumPy-Arrays/introducing-arrays/Datasets/mental_health.csv")
 
 oned_array = create_oned_arr(df["Person_ID"])
 print(f"One-dimensional Array:")
