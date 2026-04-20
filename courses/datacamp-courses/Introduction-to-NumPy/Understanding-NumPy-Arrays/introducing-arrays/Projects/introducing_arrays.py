@@ -54,3 +54,9 @@ print()
 two_dim_zero_elem_array = create_zero_elem_arr(data_shape=(2000, 4))
 print("Two-dimensional zero elements Array:")
 print(two_dim_zero_elem_array)
+
+print()
+
+three_dim_zero_elem_array = create_zero_elem_arr(data_shape=(3, 2000, 4))
+print("Three-dimensional zero elements Array:")
+print(three_dim_zero_elem_array)
