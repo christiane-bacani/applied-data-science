@@ -36,40 +36,41 @@ def create_random_elem_arr(data_shape: tuple) -> ndarray:
         return np.random.random(size=data_shape)
 
 one_dim_array = create_1D_arr(df["Person_ID"])
-print("One-dimensional Array:")
+print("One-dimensional array:")
 print(one_dim_array)
 
 print()
 
 two_dim_array = create_2D_arr(df["Person_ID"], df["Age"])
-print("Two-dimensional Array:")
+print("Two-dimensional array:")
 print(two_dim_array)
 
 print()
 
 three_dim_array = create_3D_arr(df["Person_ID"], df["Occupation"])
-print("Three-dimensional Array:")
+print("Three-dimensional array:")
 print(three_dim_array)
 
 print()
 
 one_dim_zero_elem_array = create_zero_elem_arr(data_shape=(2000))
-print("One-dimensional zero elements Array:")
+print("One-dimensional zero elements array:")
 print(one_dim_zero_elem_array)
 
 print()
 
 two_dim_zero_elem_array = create_zero_elem_arr(data_shape=(2000, 4))
-print("Two-dimensional zero elements Array:")
+print("Two-dimensional zero elements array:")
 print(two_dim_zero_elem_array)
 
 print()
 
 three_dim_zero_elem_array = create_zero_elem_arr(data_shape=(3, 2000, 4))
-print("Three-dimensional zero elements Array:")
+print("Three-dimensional zero elements array:")
 print(three_dim_zero_elem_array)
 
 print()
 
 one_dim_random_elem_array = create_random_elem_arr(data_shape=(1))
+print("One-dimensional random elements array:")
 print(one_dim_random_elem_array)
