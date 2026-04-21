@@ -35,6 +35,11 @@ def create_random_elem_arr(data_shape: tuple) -> ndarray:
     else:
         return np.random.random(size=data_shape)
 
+def create_range_elem_arr(range: tuple) -> ndarray:
+    """Create One-dimensional NumPy Array based on the given range."""
+    range_elem_arr = np.arange(range)
+    return range_elem_arr
+
 one_dim_array = create_1D_arr(df["Person_ID"])
 print("One-dimensional array:")
 print(one_dim_array)
@@ -86,3 +91,8 @@ print()
 three_dim_random_elem_array = create_random_elem_arr(data_shape=(2, 10, 10))
 print("Three-dimensional random elements array:")
 print(three_dim_random_elem_array)
+
+print()
+
+one_dim_range_elem_array = create_range_elem_arr(range=(11))
+print(one_dim_range_elem_array)
