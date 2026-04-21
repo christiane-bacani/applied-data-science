@@ -29,7 +29,7 @@ def create_zero_elem_arr(data_shape: tuple) -> ndarray:
 
 def create_random_elem_arr(data_shape: tuple) -> ndarray:
     """Create NumPy Array with random elements based on the given dataset shape."""
-    random_elem_arr = np.random.random(data_shape)
+    random_elem_arr = np.random.random(size=data_shape)
     return random_elem_arr
 
 def create_range_elem_arr(range: tuple) -> ndarray:
@@ -116,4 +116,10 @@ print()
 
 one_dim_range_elem_array = create_range_elem_arr(range=(1, 101, 2))
 print("1D Array using np.arange(1, 101, 2):")
+print(one_dim_range_elem_array)
+
+print()
+
+one_dim_range_elem_array = create_range_elem_arr(range=(200, -1, -1))
+print("1D Array using np.arange(200, -1, -1)")
 print(one_dim_range_elem_array)
