@@ -29,70 +29,85 @@ def create_zero_elem_arr(data_shape: tuple) -> ndarray:
 
 def create_random_elem_arr(data_shape: tuple) -> ndarray:
     """Create NumPy Array with random elements based on the given dataset shape."""
-    if data_shape == (1):
-        return np.random.random()
-
-    else:
-        return np.random.random(size=data_shape)
+    random_elem_arr = np.random.random(data_shape)
+    return random_elem_arr
 
 def create_range_elem_arr(range: tuple) -> ndarray:
     """Create One-dimensional NumPy Array based on the given range."""
-    range_elem_arr = np.arange(range)
+    if type(range) is int:
+        range_elem_arr = np.arange(range)
+
+    elif range is None or len(range) > 3:
+        return
+
+    elif len(range) == 2:
+        range_elem_arr = np.arange(range[0], range[1])
+
+    else:
+        range_elem_arr = np.arange(range[0], range[1], range[2])
+
     return range_elem_arr
 
 one_dim_array = create_1D_arr(df["Person_ID"])
-print("One-dimensional array:")
+print("1D Array:")
 print(one_dim_array)
 
 print()
 
 two_dim_array = create_2D_arr(df["Person_ID"], df["Age"])
-print("Two-dimensional array:")
+print("2D Array:")
 print(two_dim_array)
 
 print()
 
 three_dim_array = create_3D_arr(df["Person_ID"], df["Occupation"])
-print("Three-dimensional array:")
+print("3D Array:")
 print(three_dim_array)
 
 print()
 
 one_dim_zero_elem_array = create_zero_elem_arr(data_shape=(2000))
-print("One-dimensional zero elements array:")
+print("1D Array using np.zeros(2000)")
 print(one_dim_zero_elem_array)
 
 print()
 
 two_dim_zero_elem_array = create_zero_elem_arr(data_shape=(2000, 4))
-print("Two-dimensional zero elements array:")
+print("2D Array using np.zeros(2000, 4)")
 print(two_dim_zero_elem_array)
 
 print()
 
 three_dim_zero_elem_array = create_zero_elem_arr(data_shape=(3, 2000, 4))
-print("Three-dimensional zero elements array:")
+print("3D Array using np.zeros(3, 200, 4):")
 print(three_dim_zero_elem_array)
 
 print()
 
 one_dim_random_elem_array = create_random_elem_arr(data_shape=(1))
-print("One-dimensional random elements array:")
+print(f"1D Array using np.random.random(1):")
 print(one_dim_random_elem_array)
 
 print()
 
 two_dim_random_elem_array = create_random_elem_arr(data_shape=(4, 4))
-print("Two-dimensional random elements array:")
+print("2D Array using np.random.random(4, 4):")
 print(two_dim_random_elem_array)
 
 print()
 
 three_dim_random_elem_array = create_random_elem_arr(data_shape=(2, 10, 10))
-print("Three-dimensional random elements array:")
+print("3D Array using np.random.random(2, 10, 10):")
 print(three_dim_random_elem_array)
 
 print()
 
 one_dim_range_elem_array = create_range_elem_arr(range=(11))
+print("1D Array using np.arange(11)")
+print(one_dim_range_elem_array)
+
+print()
+
+one_dim_range_elem_array = create_range_elem_arr(range=(1, 101))
+print("1D Array using np.arange(1, 100):")
 print(one_dim_range_elem_array)
