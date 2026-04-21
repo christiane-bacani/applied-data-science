@@ -80,3 +80,9 @@ print()
 two_dim_random_elem_array = create_random_elem_arr(data_shape=(4, 4))
 print("Two-dimensional random elements array:")
 print(two_dim_random_elem_array)
+
+print()
+
+three_dim_random_elem_array = create_random_elem_arr(data_shape=(2, 10, 10))
+print("Three-dimensional random elements array:")
+print(three_dim_random_elem_array)
