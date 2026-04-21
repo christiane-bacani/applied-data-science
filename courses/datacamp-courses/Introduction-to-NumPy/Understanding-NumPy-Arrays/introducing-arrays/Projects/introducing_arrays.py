@@ -38,7 +38,7 @@ def create_range_elem_arr(range: tuple) -> ndarray:
         range_elem_arr = np.arange(range)
 
     elif range is None or len(range) > 3:
-        return
+        raise Exception("Invalid parameters!")
 
     elif len(range) == 2:
         range_elem_arr = np.arange(range[0], range[1])
