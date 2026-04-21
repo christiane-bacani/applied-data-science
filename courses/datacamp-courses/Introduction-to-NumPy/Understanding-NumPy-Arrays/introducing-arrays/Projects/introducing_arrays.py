@@ -111,3 +111,9 @@ print()
 one_dim_range_elem_array = create_range_elem_arr(range=(1, 101))
 print("1D Array using np.arange(1, 100):")
 print(one_dim_range_elem_array)
+
+print()
+
+one_dim_range_elem_array = create_range_elem_arr(range=(1, 101, 2))
+print("1D Array using np.arange(1, 101, 2):")
+print(one_dim_range_elem_array)
