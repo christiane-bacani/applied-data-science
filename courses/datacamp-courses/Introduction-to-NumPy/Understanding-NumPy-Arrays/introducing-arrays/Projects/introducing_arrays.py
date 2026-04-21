@@ -74,3 +74,9 @@ print()
 one_dim_random_elem_array = create_random_elem_arr(data_shape=(1))
 print("One-dimensional random elements array:")
 print(one_dim_random_elem_array)
+
+print()
+
+two_dim_random_elem_array = create_random_elem_arr(data_shape=(4, 4))
+print("Two-dimensional random elements array:")
+print(two_dim_random_elem_array)
