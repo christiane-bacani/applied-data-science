@@ -16,4 +16,4 @@ Deep Learning is a subset of Machine Learning that uses neurons and synapses and
 
 ## Generative AI
 
-Generative AI is a form of deep learning because it can adapt models built in deep learning but without retraining or fine-tuning. Generative AI can create new content such as images, videos, audios, conversations, stories, and even code.
+Generative AI is a subset of deep learning because it can adapt models built in deep learning but without retraining or fine-tuning. Generative AI can create new content such as images, videos, audios, conversations, stories, and even code.
