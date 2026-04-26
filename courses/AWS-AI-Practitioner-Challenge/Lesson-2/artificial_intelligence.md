@@ -13,3 +13,7 @@ ML is a subset of AI for understanding and building methods that makes it possib
 ## Deep Learning (DL)
 
 Deep Learning is a subset of Machine Learning that uses neurons and synapses and mirrors how our brain works as the core architecture of the model.
+
+## Generative AI
+
+Generative AI is a form of deep learning because it can adapt models built in deep learning but without retraining or fine-tuning. Generative AI can create new content such as images, videos, audios, conversations, stories, and even code.
