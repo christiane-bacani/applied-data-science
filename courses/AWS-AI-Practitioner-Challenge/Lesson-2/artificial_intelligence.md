@@ -8,4 +8,4 @@ Artificial Intelligence is a broad field that encompasses the development of int
 
 ## Machine Learning (ML)
 
-ML is a subset of AI for understanding and building methods that makes it possible for machine to learn in a form of data to improve its performance on a given task.
+ML is a subset of AI for understanding and building methods that makes it possible for machine to learn. These methods use data to improve computer performance on a set of tasks.
